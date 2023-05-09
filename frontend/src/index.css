@@ -1,0 +1,293 @@
+body {
+  background-image: url("bg.jpg");
+  font-family: "Lato","Avenir Next",Arial,sans-serif;
+  margin: 0;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  height:130px;
+  width:100%;
+  text-align: center;
+}
+
+.input1{
+  margin-top:50px;
+  padding:10px;
+  border-radius:5px;
+  border-color:white;
+  outline: none;
+  width: 300px;
+  font-size:medium;
+}
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.card {
+  border: none;
+}
+
+.overlay {
+  position:absolute;
+  z-index:1;
+}
+
+.centered1{
+  margin-top: 170px;
+}
+
+.centered2{
+  margin-left: 620px;
+  margin-top: 100px;
+}
+
+.but1{
+  background-color: rgba(97, 64, 64, 0.67);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-left: 620px;
+  cursor: pointer;
+}
+
+.login {
+  color: white;
+  background:  #136a8a;
+  background: 
+    -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: 
+    linear-gradient(to right, #267871, #136a8a);
+  margin: auto;
+  box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  padding: 50px;
+}
+.contact{
+  color: white;
+  background:  #6e9fb1;
+  background: 
+    -webkit-linear-gradient(to right, #81e4dc, #1980a6);
+  background: 
+    linear-gradient(to right, #3c9890, #136a8a);
+  margin: auto;
+  padding: 15px;
+}
+.login .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .head .company {
+  font-size: 2.2em;
+}
+.login .msg {
+  text-align: center;
+}
+.login .form input[type=text].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+.login .form input[type=text].text1 {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form input[type=text] {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 85%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form .text::placeholder {
+  color: #D3D3D3;
+}
+.login .form .text1::placeholder {
+  color: #D3D3D3;
+}
+.login .form input[type=password] {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 85%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form .password::placeholder {
+  color: #D3D3D3;
+}
+.input2{
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+}
+.input2::placeholder {
+  color: #ffdfdf;
+}
+
+.but2{
+  background-color: rgba(142, 127, 127, 0.45);
+  border-radius: 8px;
+  border-width: 0;
+  border: 0.5px solid rgb(0, 0, 0,0.25);
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.but2:hover{
+  background-color: rgb(147, 226, 36);
+}
+.Tabs{
+  list-style-type: none;
+}
+.tab1{
+  display: flex;
+  flex-direction: row;
+}
+.butrank{
+  background-color: rgba(142, 127, 127, 0.434);
+  border-radius: 8px;
+  border-width: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 7px 8px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.file-drop-area {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border: 2px dashed #080707;
+  border-radius: 10px;
+  background-color: rgb(50,20,50,0.3);
+  overflow: hidden;
+}
+
+.file-drop-area::before {
+  content: "Drag and drop your file here";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1e1111;
+  font-size: 18px;
+  text-align: center;
+}
+
+.file-drop-area:hover {
+  border-color: #555;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  margin: 5px;
+  border: 2px solid #ccc;
+}
+
+td {
+  padding: 14px;
+}
+
+tr {
+  background-color: #f2f2f280;
+}
+
+/* 
+td:first-child {
+  font-weight: bold;
+  width: 100px;
+}
+
+td:last-child {
+  text-align: right;
+} */
